@@ -1,7 +1,7 @@
 
 public class PalindromeWOrd {
 	
-	static boolean IsPalindrome(String s)
+	static boolean isPalindrome(String s)
 	{
 		int l=s.length();
 		String rev="";
@@ -21,7 +21,7 @@ public class PalindromeWOrd {
 	
 	for(int i=0;i<ch.length;i++) {
 		
-		if(IsPalindrome(ch[i])) {
+		if(isPalindrome(ch[i])) {
 			count++;
 		}
 		
